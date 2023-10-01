@@ -32,6 +32,7 @@
   margin: 40px auto;
   padding: 20px;
 }
+/*blog-preview home page*/
 .blog-preview {
   padding: 10px 16px;
   margin: 20px 0;
@@ -44,4 +45,16 @@
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 8px;
+}
+.blog-preview a {
+  text-decoration: none;
+}
+/*blog-details page*/
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
 }

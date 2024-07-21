@@ -26,8 +26,14 @@ You may also see any lint errors in the console.
 
 ### Screenshots
 
+Home
+
 ![Screenshot 1](images/home.png)
 
+BlogCreate
+
 ![Screenshot 2](images/blogCreate.png)
+
+BlogDetail
 
 ![Screenshot 3](images/blogDetail.png)

@@ -7,12 +7,12 @@ const useFetch = (url) => {
     const abortCont = new AbortController();
     //simulate the real api request delay
     setTimeout(() => {
-      //Assocciate abort contoller with this fetch
+      //Associate abort controller with this fetch
       fetch(url, { signal: abortCont.signal })
         .then((res) => {
           if (!res.ok) {
-            //check for api return not success error, like not exist ect, it will then be catched with msg
-            throw Error("could not fecth the data for that resource");
+            //check for api return not success error, like not exist ect, it will then be caught with msg
+            throw Error("could not fetch the data for that resource");
           }
           return res.json();
         })
